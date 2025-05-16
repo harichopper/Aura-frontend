@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://v-network-devat.herokuapp.com'
+const REACT_API_URL = process.env.REACT_APP_BACKEND_URL || 'https://aura-social-media-app.vercel.app/';
